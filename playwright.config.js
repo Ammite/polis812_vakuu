@@ -79,3 +79,6 @@ export default defineConfig({
   // },
 });
 
+module.exports = {
+  reporter: [['html', { outputFolder: 'test-results', open: 'never' }]],
+};
