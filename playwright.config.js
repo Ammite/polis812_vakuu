@@ -26,7 +26,7 @@ export default defineConfig({
   reporter: [
     [
       'html', 
-      { outputFolder: 'test-results', open: 'never' }
+      { open: 'never' }
     ]
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
