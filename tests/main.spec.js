@@ -29,13 +29,6 @@ test('Terms link in footer is valid link', async ({ page }) => {
   
 });
 
-// test('Social link in footer is valid links', async ({ page }) => {
-//   await page.goto('https://polis812.github.io/vacuu');
-  
-//   const instagram_link = page.locator('footer > div.footer__bottom > div.social > a:nth-child(1)');
-  
-//   await expect(instagram_link).toHaveAttribute('href', '');
-// });
 
 test('Travel insurance in footer is valid link', async ({ page }) => {
   await page.goto('https://polis812.github.io/vacuu');
